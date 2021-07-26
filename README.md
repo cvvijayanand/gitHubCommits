@@ -4,7 +4,7 @@
 gitHubCommits is a python program that searches GitHub's public repos and/or specific repos for a given user's last 60 commits. The program writes the output to a csv file in the current working directory and calculates the mean time of commits.
 
 ## Contents
-Introduction
+[Introduction](https://github.com/cvvijayanand/gitHubCommits/blob/master/README.md#introduction)
 
 Installation
 
@@ -12,7 +12,7 @@ How to execute?
 
 Input
 
-Output
+[Output](https://github.com/cvvijayanand/gitHubCommits/blob/master/README.md#output)
 
 
 ## Introduction
