@@ -91,9 +91,9 @@ def avg_commit_time(file_to_read):
         avg = round(np.average(diff_list))
         days = math.floor(avg / 86400)
         hours = math.floor((avg % 86400) / 3600)
-        seconds = math.floor(((avg % 86400) % 3600) % 60)
+        minutes = math.floor(((avg % 86400) % 3600) % 60)
         print(f'Total Average commit time in seconds -  {avg}')
-        print(f'Average time for commits : {days} days, {hours} hours, {seconds} seconds')
+        print(f'Average time for commits : {days} days, {hours} hours, {minutes} minutes')
     else:
         print("There are no commits found for the given user, try with another user/repo")
     file.close()
